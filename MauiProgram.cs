@@ -9,7 +9,7 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.UseSentry(options =>
 			{
-				options.Dsn = "https://4142828f712f449fa4335bbe3879dcbd@o4504004409753600.ingest.sentry.io/4504005842370560";
+				options.Dsn = "";
 			})
 			.ConfigureFonts(fonts =>
 			{
